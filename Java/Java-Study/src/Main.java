@@ -1,0 +1,91 @@
+// 18:32 - 19:23 | 19:49 - 20:02
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        /*
+         -- Var String --
+         String name = "Samuel Torres Fernandes";
+         System.out.println(name);
+        */
+
+        /*
+          -- Var Numbers --
+          byte age = 20; -- 1byte
+          short year = 2025; -- 2bytes
+          int anyBigNumber = 348239267; -- 4bytes
+          long reallyBigNumber = anyBigNumber + ( year * ( age * 9 ) ); -- 8bytes
+          System.out.println(age);
+          System.out.println(year);
+          System.out.println(anyBigNumber);
+          System.out.println(reallyBigNumber);
+         */
+
+        /*
+         -- Var Decimals --
+         float dolarInReal = 5.59f; -- 4bytes
+         double anyNumber = 5.6345533452323; -- 8bytes
+         System.out.println(dolarInReal);
+         System.out.println(anyNumber);
+        */
+
+        /*
+         -- Var character and text --
+         String name = "Samuel Torres Fernandes";
+         char letter = 'S';
+         System.out.println(name);
+         System.out.println(letter);
+        */
+
+        /*
+        -- Var and Boolean --
+         var year = 2025;
+         boolean isActive = true;
+        */
+
+        /*
+         -- Wrappers --
+         Byte age = 20;
+         System.out.println(age.byteValue());
+        */
+
+        /*
+         -- Changeable and Immutable --
+         byte age = 17;
+         age = 20;
+         System.out.println(age);
+
+         final byte AGE = 20;
+         AGE = 17; <-- Error
+         System.out.println(age);
+
+         final String DATABASE = "databaseName";
+        */
+
+        /*
+         -- Concatenation --
+         String name = "Samuel Torres Fernandes";
+         Byte age = 20;
+         String profession = "Backend Developer";
+         System.out.println("My name is " + name + ", " + "i have " + age + " years old, and i'm a " + profession);
+        */
+
+        /*
+         -- User Input --
+         String name;
+         Scanner userInput = new Scanner(System.in);
+         name = userInput.nextLine();
+         System.out.println(name);
+
+         byte age;
+         age = userInput.nextByte();
+         System.out.println(age);
+        */
+
+
+    }
+
+}

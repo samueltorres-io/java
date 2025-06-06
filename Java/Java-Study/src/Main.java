@@ -1,4 +1,4 @@
-// 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 14:13 | = ( 79 min )
+// 18:32 - 19:23 | 19:49 - 20:02 | 13:58 -
 
 import java.util.Scanner;
 
@@ -99,6 +99,35 @@ public class Main {
          System.out.println(div);
          System.out.println(mul);
         */
+
+        /*
+         -- If and Else --
+         Scanner userInput = new Scanner(System.in);
+
+         boolean adult = false;
+         byte age;
+         age = userInput.nextByte();
+
+         if (age >= 18) {
+         adult = true;
+            System.out.println("You are an adult and can access!");
+         } else if (age < 0) {
+            System.out.println("Your age cannot be less than 0.");
+         } else if (age < 18) {
+            System.out.println("You do not meet the minimum age to access!");
+         } else {
+            System.out.println("Unable to determine age!");
+         }
+        */
+
+        /*
+         -- Array --
+         String[] myWallet = {"USDT", "BRL", "EUR"};
+         System.out.println(myWallet[0]);
+        */
+
+
+
 
     }
 

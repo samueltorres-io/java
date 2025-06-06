@@ -126,7 +126,84 @@ public class Main {
          System.out.println(myWallet[0]);
         */
 
+        /* -- While and For --
+            Name -> Age -> Wallet with 3 items.
 
+            Scanner userInput = new Scanner(System.in);
+            final String[] person = {"Adult", "Teen", "Kid"};
+
+            boolean nameStatus = false;
+            String name = "";
+
+            boolean ageStatus = false;
+            byte age = 0;
+            String people = "";
+
+            boolean walletStatus = false;
+            String[] wallet = new String[3];
+
+            while(!nameStatus) {
+                System.out.print("Type your name: ");
+                name = userInput.nextLine();
+
+                if (!name.isBlank()) {
+                    nameStatus = true;
+                } else {
+                    System.out.println("Name cannot be empty!");
+                }
+            }
+
+            while(!ageStatus) {
+                System.out.print("Type your age: ");
+                age = Byte.parseByte(userInput.nextLine());
+
+                try {
+
+                    if (age < 0) {
+                        System.out.println("Invalid age!");
+                    } else if (age >= 18) {
+                        people = person[0];
+                        ageStatus = true;
+                        System.out.println("You are an : " + people);
+                    } else if (age >= 12 && age < 18) {
+                        people = person[1];
+                        ageStatus = true;
+                        System.out.println("You are an: " + people);
+                    } else {
+                        people = person[2];
+                        ageStatus = true;
+                        System.out.println("You are an: " + people);
+                    }
+
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid character! Insert a valid number.");
+                }
+            }
+
+            while (!walletStatus) {
+                for (int i = 0; i < wallet.length; ) {
+                    System.out.print("Choose the " + (i + 1) + "° Money Type: ");
+                    String item = userInput.nextLine();
+
+                    if (item.isBlank()) {
+                        System.out.println("Item cannot be empty!");
+                    } else {
+                        wallet[i] = item;
+                        i++;
+                    }
+                }
+
+                walletStatus = true;
+            }
+
+            System.out.println("\n--- User Summary ---");
+            System.out.println("Name: " + name);
+            System.out.println("Age: " + age);
+            System.out.println("Wallet contains:");
+            for (String item : wallet) {
+                System.out.print(" - " + item);
+            }
+        */
 
 
     }

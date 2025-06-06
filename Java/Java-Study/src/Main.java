@@ -1,4 +1,4 @@
-// 18:32 - 19:23 | 19:49 - 20:02 | 13:
+// 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 14:13 | = ( 79 min )
 
 import java.util.Scanner;
 
@@ -99,7 +99,6 @@ public class Main {
          System.out.println(div);
          System.out.println(mul);
         */
-
 
     }
 

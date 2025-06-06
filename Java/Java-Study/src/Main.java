@@ -1,4 +1,4 @@
-// 18:32 - 19:23 | 19:49 - 20:02 | 13:58 -
+// 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 16:53 | 17:56 - 18:09
 
 import java.util.Scanner;
 
@@ -204,6 +204,55 @@ public class Main {
                 System.out.print(" - " + item);
             }
         */
+
+        /* -- Switch --
+        byte month = 3;
+        String outMonth = "";
+
+        switch(month) {
+            case 1:
+                outMonth = "January";
+                break;
+            case 2:
+                outMonth = "February";
+                break;
+            case 3:
+                outMonth = "March";
+                break;
+            case 4:
+                outMonth = "April";
+                break;
+            case 5:
+                outMonth = "May";
+                break;
+            case 6:
+                outMonth = "June";
+                break;
+            case 7:
+                outMonth = "July";
+                break;
+            case 8:
+                outMonth = "August";
+                break;
+            case 9:
+                outMonth = "September";
+                break;
+            case 10:
+                outMonth = "October";
+                break;
+            case 11:
+                outMonth = "November";
+                break;
+            case 12:
+                outMonth = "December";
+                break;
+            default:
+                outMonth = "Invalid month";
+                break;
+        }
+
+        System.out.println("Month: " + outMonth);
+         */
 
 
     }

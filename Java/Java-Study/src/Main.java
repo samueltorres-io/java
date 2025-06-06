@@ -1,4 +1,4 @@
-// 18:32 - 19:23 | 19:49 - 20:02
+// 18:32 - 19:23 | 19:49 - 20:02 | 13:
 
 import java.util.Scanner;
 
@@ -83,6 +83,21 @@ public class Main {
          byte age;
          age = userInput.nextByte();
          System.out.println(age);
+        */
+
+        /*
+         -- Arithmetic Operators --
+         int n1 = 10;
+         int n2 = 47;
+         float n3 = 3.65f;
+         float sum = n1 + n2 + n3;
+         int sub = n1 - n2;
+         float div = n2 / n3;
+         float mul = n1 * (n2 + n3);
+         System.out.println(sum);
+         System.out.println(sub);
+         System.out.println(div);
+         System.out.println(mul);
         */
 
 

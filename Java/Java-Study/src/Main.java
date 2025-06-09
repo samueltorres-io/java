@@ -1,5 +1,7 @@
 // 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 16:53 | 17:56 - 18:09
 
+import oop.People;
+
 import java.util.Scanner;
 
 public class Main {
@@ -253,6 +255,14 @@ public class Main {
 
         System.out.println("Month: " + outMonth);
          */
+
+        // -- OOP --
+        People people = new People();
+        byte age = 20;
+
+        people.setAge(age);
+        System.out.println(people.getAge());
+        
 
 
     }

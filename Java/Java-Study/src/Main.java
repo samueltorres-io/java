@@ -1,6 +1,8 @@
 // 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 16:53 | 17:56 - 18:09
 
+import oop.Car;
 import oop.People;
+import oop.Truck;
 
 import java.util.Scanner;
 
@@ -256,14 +258,29 @@ public class Main {
         System.out.println("Month: " + outMonth);
          */
 
-        // -- OOP --
-        People people = new People();
-        byte age = 20;
+        /*
+            // -- OOP --
+            People people = new People();
+            byte age = 20;
 
-        people.setAge(age);
-        System.out.println(people.getAge());
-        
+            people.setAge(age);
+            System.out.println(people.getAge());
 
+            // -- Builders --
+            Car car = new Car("Red");
+
+            car.accelerate();
+            String carColor = car.carColor();
+            System.out.println("The car has a "+ car.carColor() + " color!");
+            System.out.println("The car has a "+ carColor + " color!");
+
+            // -- Heritage --
+            Truck truck = new Truck();
+            System.out.println("Current gear is: " + truck.gearShift("up"));
+            System.out.println("Current gear is: " + truck.gearShift("up"));
+            System.out.println("Current gear is: " + truck.gearShift("up"));
+            System.out.println("Current gear is: " + truck.gearShift("down"));
+         */
 
     }
 

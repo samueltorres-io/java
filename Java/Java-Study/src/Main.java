@@ -1,6 +1,7 @@
 // 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 16:53 | 17:56 - 18:09
 
 import oop.Car;
+import oop.Financing;
 import oop.People;
 import oop.Truck;
 
@@ -281,6 +282,21 @@ public class Main {
             System.out.println("Current gear is: " + truck.gearShift("up"));
             System.out.println("Current gear is: " + truck.gearShift("down"));
          */
+
+        /* -- Exeptions --
+            double totalValue = 4000;
+            double downPayment = 900;
+            int installments = 8;
+
+            try {
+                Financing financing = new Financing(totalValue, downPayment, installments);
+                System.out.println(financing.provision());
+            } catch (RuntimeException e) {
+                System.out.print(e);
+            }
+        */
+
+
 
     }
 

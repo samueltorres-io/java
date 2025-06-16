@@ -307,6 +307,17 @@ public class Main {
             }
         */
 
+        /* --  switch-case Initialization + Lambda
+            String day = "Mon.";
+
+            String dayType = switch (day) {
+                case "Mon.", "Tue.", "Wed.", "Thu.", "Fri." -> "Working day";
+                case "Sat.", "Sun." -> "Weekend";
+                default -> "Unknown";
+            };
+
+            System.out.println(dayType);
+        */
 
     }
 

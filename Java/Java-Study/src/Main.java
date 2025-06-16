@@ -1,5 +1,3 @@
-// 18:32 - 19:23 | 19:49 - 20:02 | 13:58 - 16:53 | 17:56 - 18:09
-
 import oop.Car;
 import oop.Financing;
 import oop.People;
@@ -296,6 +294,18 @@ public class Main {
             }
         */
 
+        /* -- Instanceof --
+            // Verify an Object only!
+            Object obj = "Hello";
+            if (obj instanceof String) {
+                System.out.println(obj);
+            }
+
+            Boolean status = true;
+            if (status instanceof Boolean) {
+                System.out.println("Boolean");
+            }
+        */
 
 
     }

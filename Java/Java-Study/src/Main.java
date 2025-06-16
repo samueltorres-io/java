@@ -319,6 +319,23 @@ public class Main {
             System.out.println(dayType);
         */
 
+        /* -- Satisfaction level with switch-case Expression --
+            byte level = 5;
+            final String[] feedback = {"Very dissatisfied!", "Dissatisfied!", "Neutral!", "Satisfied!", "Very satisfied!"};
+            switch (level) {
+                case 1 -> System.out.println(feedback[0]);
+                case 2 -> System.out.println(feedback[1]);
+                case 3 -> System.out.println(feedback[2]);
+                case 4 -> System.out.println(feedback[3]);
+                case 5 -> System.out.println(feedback[4]);
+                default -> System.out.println("Err"); // Create a best msm err
+            }
+        */
+
+
+
+
+
     }
 
 }

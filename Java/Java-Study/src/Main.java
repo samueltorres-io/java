@@ -1,7 +1,7 @@
 import oop.*;
 
 import java.util.Scanner;
-
+import company.data.Employeer;
 public class Main {
 
     public static void main(String[] args) {
@@ -333,6 +333,13 @@ public class Main {
             Bike bike0 = new Bike();
             Bike bike1 = new Bike("Ford", "Ka");
             Bike bike2 = new Bike("Ford", "Ka", (short) 2023); // Err -> Send as Int!
+        */
+
+        /* -- Package --
+        Ex: -> import company.data.Employeer
+
+            Employeer employeer = new Employeer("Marcos", (double) 4928.74);
+
         */
 
 

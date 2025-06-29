@@ -1,7 +1,4 @@
-import oop.Car;
-import oop.Financing;
-import oop.People;
-import oop.Truck;
+import oop.*;
 
 import java.util.Scanner;
 
@@ -331,6 +328,13 @@ public class Main {
                 default -> System.out.println("Err"); // Create a best msm err
             }
         */
+
+        /* -- Constructor Overloading --
+            Bike bike0 = new Bike();
+            Bike bike1 = new Bike("Ford", "Ka");
+            Bike bike2 = new Bike("Ford", "Ka", (short) 2023); // Err -> Send as Int!
+        */
+
 
 
 

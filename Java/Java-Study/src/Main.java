@@ -342,6 +342,10 @@ public class Main {
 
         */
 
+        /* -- Methods and Encapsulation
+            Product product = new Product("Smart Watch", 1200, 3027);
+        */
+
 
 
 

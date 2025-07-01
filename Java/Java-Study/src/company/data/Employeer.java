@@ -12,4 +12,10 @@ public class Employeer {
         System.out.println("Employeer name: " + name);
     }
 
+    public void increaseSalary(double increase) {
+        this.wage += increase;
+
+        System.out.println(wage);
+    }
+
 }

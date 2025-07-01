@@ -346,7 +346,23 @@ public class Main {
             Product product = new Product("Smart Watch", 1200, 3027);
         */
 
+        /* -- Method --
+            Employeer employeer = new Employeer("Lucas", (double) 5389.94);
+            employeer.increaseSalary(2948.79);
+        */
 
+        /* -- Array --
+            int[] array;
+            array = new int[3];
+            array[0] = 10;
+            array[1] = 20;
+            array[2] = 30;
+            array = new int[]{10, 20, 30};
+
+            for(int i = 0; i < array.length; i++) {
+                System.out.println(array[i]);
+            }
+         */
 
 
 

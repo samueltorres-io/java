@@ -7,6 +7,8 @@ abstract class VideoGame {
     protected String cpuModel;
     protected String gpuModel;
 
+    public String productCode;
+
     public VideoGame(long ramSize, String cpuModel, String gpuModel) {
         this.ramSize = ramSize;
         this.cpuModel = cpuModel;

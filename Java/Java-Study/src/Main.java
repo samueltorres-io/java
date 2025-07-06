@@ -2,6 +2,9 @@ import oop.*;
 
 import java.util.Scanner;
 import company.data.Employeer;
+import oop.interfaces.Predator;
+import oop.interfaces.Prey;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -364,8 +367,19 @@ public class Main {
             }
          */
 
+        /* -- Interfaces --
+            Rabbit rabbit = new Rabbit();
+            rabbit.flee();
 
+            // Interface Predator extends Interface Prey too! ->
+            rabbit.hunt();
+            System.out.println(Prey.Description);
 
+            // Default and Static methods on Interfaces
+            // NOTE: Predator extends Prey!
+            Predator.preyDescription();
+            Predator.predatorDescription();
+        */
 
 
 

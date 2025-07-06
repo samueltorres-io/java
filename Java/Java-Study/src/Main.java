@@ -1,10 +1,5 @@
 import oop.*;
 
-import java.util.Scanner;
-import company.data.Employeer;
-import oop.interfaces.Predator;
-import oop.interfaces.Prey;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -380,6 +375,8 @@ public class Main {
             Predator.preyDescription();
             Predator.predatorDescription();
         */
+
+
 
 
 

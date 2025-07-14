@@ -378,55 +378,77 @@ public class Main {
             Predator.predatorDescription();
         */
 
-        // -- Collections --
+        /* -- Collections --
 
         // --- Set ---
-        Set<String> collection = new HashSet<>();
 
-        collection.add("Java");
-        collection.add("C++");
-        collection.add("Python");
+            Set<String> collection = new HashSet<>();
 
-        System.out.println(collection);
-        System.out.println(collection.contains("Java")); // Return true or false
+            collection.add("Java");
+            collection.add("C++");
+            collection.add("Python");
 
-        collection.remove("Python");
-        System.out.println(collection);
+            System.out.println(collection);
+            System.out.println(collection.contains("Java")); // Return true or false
 
-        boolean hasBeenAdded = collection.add("Java");
-        System.out.println(hasBeenAdded);
+            collection.remove("Python");
+            System.out.println(collection);
 
-        collection.clear();
-        if (collection.isEmpty()) {
-            System.out.println("Collection is empty!");
-        } else {
-            System.out.println("Collection is not empty!");
-        }
+            boolean hasBeenAdded = collection.add("Java");
+            System.out.println(hasBeenAdded);
+
+            collection.clear();
+            if (collection.isEmpty()) {
+                System.out.println("Collection is empty!");
+            } else {
+                System.out.println("Collection is not empty!");
+            }
 
         // --- List ---
 
-        List<String> list = new ArrayList<>();
+            List<String> list = new ArrayList<>();
 
-        list.add("Java");
-        list.add("Java");
-        list.add("Python");
-        list.add("C++");
+            list.add("Java");
+            list.add("Java");
+            list.add("Python");
+            list.add("C++");
 
-        System.out.println(list);
-        System.out.println(list.contains("C++"));
+            System.out.println(list);
+            System.out.println(list.contains("C++"));
 
-        List<String> list2 = Arrays.asList("JavaScript", "Ruby");
-        list.addAll(list2);
-        System.out.println(list);
+            List<String> list2 = Arrays.asList("JavaScript", "Ruby");
+            list.addAll(list2);
+            System.out.println(list);
 
-        list.remove("Python");
-        System.out.println(list);
+            list.remove("Python");
+            System.out.println(list);
 
-        System.out.println(list.get(2));
+            System.out.println(list.get(2));
 
-        list.clear();
+            list.clear();
 
         // --- Map ---
+
+            Map<String, Integer> map = new HashMap<>();
+
+            map.put("Java", 20);
+            map.put("C++", 10);
+            map.put("Assembly", 27);
+            System.out.println(map);
+            System.out.println(map.get("Java"));
+
+            System.out.println(map.containsKey("Java"));
+
+            map.remove("Assembly");
+            System.out.println(map);
+
+            map.put("Java", 30);
+            System.out.println(map.get("Java"));
+
+            map.clear();
+
+        */
+
 
 
 

@@ -9,7 +9,7 @@ public class ExceptionDivisionByZero {
     public static void main(String[] args) {
 
         int totalScore = 96;
-        int studies = 12;
+        int studies = 0;
 
         try {
 
@@ -19,6 +19,7 @@ public class ExceptionDivisionByZero {
         } catch (ArithmeticException ae) {
 
             System.out.println("Err: Division by zero!");
+            System.out.println("Message: " + ae.getMessage()); // '/ by zero'
 
         }
 

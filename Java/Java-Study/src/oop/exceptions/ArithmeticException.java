@@ -15,6 +15,17 @@ public class ArithmeticException {
         } finally {
             System.out.println("End of program!");
         }
+
+        // In java 22, we can use _ vars!
+        try {
+
+            int resultTwo = studies / teachers;
+
+        } catch (Exception _) { // <-- Here
+            System.out.println("ERR: Division by zero");
+        } finally {
+            System.out.println("End of program!");
+        }
     }
 
 }

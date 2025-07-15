@@ -1,6 +1,6 @@
 package oop.exceptions;
 
-public class ArithmeticException {
+public class ArithmeticExceptionClass {
 
     public static void main(String[] args) {
         int studies = 0;
